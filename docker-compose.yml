@@ -1,0 +1,9 @@
+caddy:
+  image: zhanhao/caddy
+  ports:
+    - "80:80/tcp"
+    - "443:443/tcp"
+  volumes:
+    - "/root/docker/caddy-docker/config:/caddy/config"
+  restart: always
+

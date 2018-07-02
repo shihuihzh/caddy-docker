@@ -1,2 +1,3 @@
-# caddy-docker
-caddy-docker
+## How To Build
+
+ docker build -t zhanhao/caddy .
